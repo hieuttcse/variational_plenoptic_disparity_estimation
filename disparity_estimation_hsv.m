@@ -7,7 +7,7 @@
 %define lightfield data name
 dataname = 'buddha';
 
-view_skip = 3; %skip some border view for faster processing.
+view_skip = 0; %skip some border view for faster processing.
 
 lf_file = sprintf('inputs/%s.mat',dataname);
 data = load(lf_file);
